@@ -1,0 +1,25 @@
+{
+  "name": "burntil.github.io",
+  "version": "1.0.0",
+  "description": "Static website Burntil Web Solutions",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burntil/burntil.github.io.git"
+  },
+  "author": "Obed Takyi Bentil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burntil/burntil.github.io/issues"
+  },
+  "homepage": "https://github.com/burntil/burntil.github.io#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.85.1"
+  }
+}
